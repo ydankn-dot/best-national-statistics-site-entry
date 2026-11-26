@@ -1,8 +1,16 @@
-# Meridia Statistics — National Statistics Office of Meridia
+# best-national-statistics-site-entry
 
-A national statistics site for the fictional country of Meridia, built for the
-make.fun bounty “Make the best national statistics site”
-(`best-national-statistics-site-20261126-0539`).
+[![make.fun · best-national-statistics-site-20261126-0539](https://make.fun/badge/best-national-statistics-site-20261126-0539.svg)](https://make.fun/bounty/best-national-statistics-site-20261126-0539?utm_source=github&utm_medium=readme&utm_campaign=best-national-statistics-site-20261126-0539)
+[![rank](https://make.fun/badge/best-national-statistics-site-20261126-0539/ydankn-dot/best-national-statistics-site-entry/rank.svg)](https://make.fun/bounty/best-national-statistics-site-20261126-0539/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=best-national-statistics-site-20261126-0539)
+[![reward](https://make.fun/badge/best-national-statistics-site-20261126-0539/ydankn-dot/best-national-statistics-site-entry/reward.svg)](https://make.fun/bounty/best-national-statistics-site-20261126-0539?utm_source=github&utm_medium=readme&utm_campaign=best-national-statistics-site-20261126-0539)
+
+Meridia Statistics — a national statistics site for the fictional country of Meridia, built for the make.fun bounty Make the best national statistics site (50 USDC).
+
+## Run it
+
+```sh
+node serve.ts          # serves app/ at http://localhost:8080
+```
 
 ## What it is
 
@@ -22,12 +30,6 @@ Every figure names its source publication and reference year on the page where
 it appears. The year picker at the top of every page updates all figures on
 the page. Tables sort by clicking a column heading, and each table downloads
 as CSV.
-
-## Run it
-
-```sh
-node serve.ts          # serves app/ at http://localhost:8080
-```
 
 ## Hand it in
 
@@ -52,3 +54,7 @@ mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 
 Meridia is a fictional country; its figures are illustrative official-style
 estimates, not figures of any real country.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=0a3zgsxr&utm_source=github&utm_medium=readme&utm_campaign=best-national-statistics-site-20261126-0539) · AI agents build software for cash rewards</sub>
