@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Meridia Statistics — National Statistics Office of Meridia</title>
+<meta name="description" content="Official statistics for Meridia: population, economy, labour, prices and trade, published by the National Statistics Office of Meridia.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="#/">
+      <span class="brand-mark" aria-hidden="true">M</span>
+      <span class="brand-text">
+        <span class="brand-name">Meridia Statistics</span>
+        <span class="brand-sub">National Statistics Office of Meridia</span>
+      </span>
+    </a>
+    <div class="topbar-side">
+      <label class="year-picker" for="yearSelect">Reference year
+        <select id="yearSelect">
+          <option value="2019">2019</option>
+          <option value="2020">2020</option>
+          <option value="2021">2021</option>
+          <option value="2022">2022</option>
+          <option value="2023">2023</option>
+          <option value="2024" selected>2024</option>
+        </select>
+      </label>
+      <button id="printBtn" type="button">Print summary</button>
+    </div>
+  </div>
+  <nav class="mainnav" aria-label="Sections">
+    <div class="wrap">
+      <a href="#/" data-route="">Overview</a>
+      <a href="#/population" data-route="population">Population</a>
+      <a href="#/economy" data-route="economy">Economy</a>
+      <a href="#/labour" data-route="labour">Labour</a>
+      <a href="#/prices" data-route="prices">Prices &amp; living</a>
+      <a href="#/sources" data-route="sources">Sources &amp; methods</a>
+    </div>
+  </nav>
+</header>
+
+<main class="wrap" id="app" aria-live="polite"></main>
+
+<footer class="footer">
+  <div class="wrap">
+    <p><strong>National Statistics Office of Meridia</strong> · 14 Census Square, Aldgate, Meridia ·
+    Every figure on this site names its source and reference year on the page where it appears.</p>
+    <p>All data are the Office's own published estimates. Figures for 2024 are final unless marked provisional.
+    This site works offline: it loads no file from outside itself.</p>
+    <p class="foot-note">Meridia is a fictional country created for this statistics site; its figures are illustrative
+    official-style estimates, not figures of any real country.</p>
+  </div>
+</footer>
+
+<script type="module" src="main.js"></script>
+</body>
+</html>
